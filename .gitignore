@@ -1,0 +1,110 @@
+# ======================
+# Unreal Engine (áp dụng mọi cấp)
+# ======================
+**/Binaries/
+**/Build/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.ipch
+*.tmp
+*.log
+*.pdb
+*.obj
+*.pch
+*.idb
+*.res
+*.dep
+
+*.vs/
+.vscode/
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+
+*.uplugin
+*.uprojectdirs
+*.ini.local
+*.ini.backup
+
+VaultCache/
+CrashReportClient/
+
+# ======================
+# Houdini Assets
+# ======================
+__pycache__/
+*.hip~
+*.hiplcautosave
+*.hipncautosave
+*.hipautosave
+*.autosave
+*.pid
+*.lock
+*.bak
+*.cache/
+houdini_temp/
+
+# ======================
+# Maya Assets
+# ======================
+*.ma~
+*.bak
+*.swatches
+*.log
+*.tmp
+*.autosave
+*.back
+mayaProject/work/
+mayaProject/data/
+mayaProject/images/
+mayaProject/temp/
+**/maya*/autosave/
+**/maya*/temp/
+**/maya*/workspace.mel
+
+# ======================
+# Substance Painter / Designer
+# ======================
+*.autosave
+*.lock
+*.bak
+*.tmp
+*_autosave.*
+*_autosave.json
+*.log
+*.crash
+*.backup
+.cache/
+temp/
+
+# ======================
+# Documents (temp/backup)
+# ======================
+*.tmp
+*.bak
+~$*
+
+# ======================
+# OS + Editor specific
+# ======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ======================
+# Git specific
+# ======================
+.git/
+.gitmodules
+*.orig
+*.rej
+*.diff
+*.patch
